@@ -1,0 +1,41 @@
+tr{
+    background-color: gray;
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: black;
+}
+td{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+
+tr:nth-child(7) td{
+    background-image: url(figurák/Chess_plt60.png);
+}
+tr:nth-child(8) td:nth-child(1), tr:nth-child(8)  td:nth-child(8){
+    background-image: url(figurák/Chess_rlt60.png);
+}
+tr:nth-child(8) td:nth-child(2), tr:nth-child(8)  td:nth-child(7){
+    background-image: url(figurák/Chess_nlt60.png);
+}
+
+tr:nth-child(8) td:nth-child(3), tr:nth-child(8)  td:nth-child(6){
+    background-image: url(figurák/Chess_blt60.png);
+}
+
+tr:nth-child(8) td:nth-child(4){
+    background-image: url(figurák/Chess_qlt60.png);
+}
+
+tr:nth-child(8) td:nth-child(5){
+    background-image: url(figurák/Chess_klt60.png);
+}
+
+table{
+    border: 30px solid transparent;
+    border-image: url(border/texture-seamless-wood-5.jpg) 20 round;
+}

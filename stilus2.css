@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 75px;
+    border-right: solid black 5px;
+    float: left;
+    margin-top: 100px;
+}
+
+div:nth-child(5), div:nth-child(10)
+{
+    border-right: solid red 5px;
+    margin-top: 0px;
+}
+
